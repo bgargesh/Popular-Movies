@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myapp.gargesh.moviesdb.MoviesGrid">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_movie_thumbnails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tv_internet_available_message"
+        android:text="@string/not_connected_message"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:fontFamily="monospace"
+        android:visibility="invisible"/>
+
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="sort_by_popular">Sort by Popularity</string>
+    <string name="sort_by_rating">Sort by Rating</string>
+    <string name="not_connected_message">Restart the app after you have connected to internet!</string>
+    <string name="toast_message">Loading movies by criteria: </string>
+    <string name="release_date_prefix">Released on: </string>
+    <string name="voting_prefix">Rating: </string>
+    <string name="content_display_for_poster">Movie Poster</string>
+</resources>
